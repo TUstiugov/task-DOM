@@ -1,0 +1,22 @@
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  // .footer__copy
+  &__copy {}
+
+  // .footer__my-github
+  &__my-github {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+    background: url('./images/icons/github.svg') no-repeat;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

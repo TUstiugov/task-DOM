@@ -1,0 +1,19 @@
+.header {
+  padding: 20px 0;
+
+  text-align: center;
+
+  // .header__title
+  &__title {
+    margin: 0 0 10px 0;
+
+    font-size: 1.5rem;
+  }
+
+  // .header__subtitle
+  &__subtitle {
+    margin: 0;
+
+    font-size: 1.2rem;
+  }
+}

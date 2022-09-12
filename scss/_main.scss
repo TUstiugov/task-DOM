@@ -1,0 +1,53 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  // .main__content
+  &__content {
+    flex: 0 0 75%;
+  }
+}
+
+.aside {
+  flex: 0 0 25%;
+
+  // .aside__menu
+  &__menu {
+    padding: 20px;
+
+    background: #d3d2d2;
+  }
+
+  // .aside__list
+  &__list {}
+
+  // .aside__list-item
+  &__list-item {
+    margin: 0 0 20px 0;
+  }
+
+  // .aside__link
+  &__link {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -7px;
+      left: 50%;
+
+      width: 0;
+      height: 5px;
+
+      background: #000000;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    &:hover::after {
+      left: 0;
+
+      width: 100%;
+    }
+  }
+}

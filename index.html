@@ -5,26 +5,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./style.css">
   <title>Task DOM</title>
 </head>
 
 <body>
+  <header class="header">
+    <h1 class="header__title">Серія книг "Гаррі Поттер"</h1>
+    <h2 class="header__subtitle">Авторка - Джоан Роулінг</h2>
+  </header>
+
   <main class="main flex-container">
     <aside class="aside">
       <nav class="aside__menu">
         <ul class="aside__list">
           <li class="aside__list-item">
-            <a href="#" class="aside__link">Title 1</a>
+            <a href="#" class="aside__link">Перша книга</a>
           </li>
           <li class="aside__list-item">
-            <a href="#" class="aside__link">Title 2</a>
+            <a href="#" class="aside__link">Друга книга</a>
           </li>
           <li class="aside__list-item">
-            <a href="#" class="aside__link">Title 3</a>
+            <a href="#" class="aside__link">Третя книга</a>
           </li>
           <li class="aside__list-item">
-            <a href="#" class="aside__link">Title 4</a>
+            <a href="#" class="aside__link">Четверта книга</a>
+          </li>
+          <li class="aside__list-item">
+            <a href="#" class="aside__link">П'ята книга</a>
+          </li>
+          <li class="aside__list-item">
+            <a href="#" class="aside__link">Шоста книга</a>
+          </li>
+          <li class="aside__list-item">
+            <a href="#" class="aside__link">Сьома книга</a>
           </li>
         </ul>
       </nav>
@@ -32,6 +47,11 @@
 
     <div class="main__content"></div>
   </main>
+
+  <footer class="footer flex-container">
+    <div class="footer__copy">2022 &copy; T. Ustiugov</div>
+    <a href="https://github.com/TUstiugov" class="footer__my-github"></a>
+  </footer>
 
   <script type="module" src="script.js"></script>
 </body>
